@@ -1,0 +1,63 @@
+header {
+    background-color: #1F2937;
+      
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.second-text,
+header a,
+div p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+    margin-left: 120px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    position: relative;
+    margin-right: 30px;
+    right: 90px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.banner-image {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 120px;
+}
